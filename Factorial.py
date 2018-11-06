@@ -10,4 +10,4 @@ def factorial(n): #Define function which count factorial
 
 print (factorial(0)) #Print factorial to the console
 
-input()
+input() 
