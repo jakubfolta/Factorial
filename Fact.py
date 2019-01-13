@@ -20,3 +20,6 @@ def checkFactorial(number):
             total = total * number
             number -= 1
         return total
+
+
+print(checkFactorial(4))
