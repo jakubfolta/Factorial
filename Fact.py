@@ -14,12 +14,11 @@ print (factorial(9))
 def checkFactorial(number):
     if number == 0:
         return 1
-    else:
-        total = 1
-        while number > 1:
-            total = total * number
-            number -= 1
-        return total
+    total = 1
+    while number > 1:
+        total = total * number
+        number -= 1
+    return total
 
 
-print(checkFactorial(4))
+print(checkFactorial(5))
