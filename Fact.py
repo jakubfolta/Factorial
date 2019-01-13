@@ -10,3 +10,6 @@ def factorial(number):
 
 
 print (factorial(9))
+
+def checkFactorial(number):
+  pass
