@@ -21,3 +21,13 @@ def checkFactorial(number):
     return digit
 
 print(checkFactorial(15))
+
+
+def checkFactorial(number):
+  factorial = 1
+  while number > 1:
+    factorial = factorial * number
+    number = number - 1
+  return factorial
+
+print(checkFactorial)
