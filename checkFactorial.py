@@ -30,4 +30,4 @@ def checkFactorial(number):
     number = number - 1
   return factorial
 
-print(checkFactorial)
+print(checkFactorial(3))
