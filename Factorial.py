@@ -8,6 +8,17 @@ def factorial(n): #Define function which count factorial
       n = n - 1 #Decrease number and at the same time setting second number for multiplication 
     return dig #Return multiplication
 
-print (factorial(0)) #Print factorial to the console
+print (factorial(4)) #Print factorial to the console
 
-input() 
+
+
+def count_factorial(number):
+  total = 1
+  if  number == 0:
+    return 1
+  while number > 1:
+    total = total * number
+    number -= 1
+  return total
+
+print(count_factorial(3))
