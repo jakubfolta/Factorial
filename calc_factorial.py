@@ -10,3 +10,15 @@ def factorial(number):
 
 
 print (factorial(9))
+
+def checkFactorial(number):
+    if number == 0:
+        return 1
+    total = 1
+    while number > 1:
+        total = total * number
+        number -= 1
+    return total
+
+
+print(checkFactorial(5))
