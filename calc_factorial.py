@@ -22,3 +22,14 @@ def checkFactorial(number):
 
 
 print(checkFactorial(5))
+
+def calculateFactorial(number):
+  if number == 0:
+    return 1
+  factorialFromNumber = 1
+  while number > 1:
+    factorialFromNumber = factorialFromNumber * number
+    number -= 1
+  return factorialFromNumber
+
+print(calculateFactorial(8))
